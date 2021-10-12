@@ -1,0 +1,9 @@
+.price-rank {
+  /*font-size: 1.4em;/**/
+  font-weight: bold;
+  color: rgba(63, 68, 74, 0.3);
+}
+
+.price-rank span.filled {
+  color: #3f444a;
+}

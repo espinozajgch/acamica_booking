@@ -1,0 +1,27 @@
+#list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1600px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+@media (min-width: 321px) {
+  #list {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+}
+
+#list .empty-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  color: #777;
+}
+
+#list [icon] {
+  margin-bottom: 10px;
+  height: 40px;
+}

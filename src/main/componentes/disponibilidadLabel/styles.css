@@ -1,0 +1,14 @@
+.disponibilidad-tag {
+  text-align: center;
+}
+
+h3 {
+  margin: 10px 0 0;
+  font-size: 1em;
+  color: #4a4d50;
+}
+
+p.dates {
+  border: 0;
+  margin: 0;
+}

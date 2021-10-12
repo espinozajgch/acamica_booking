@@ -1,0 +1,12 @@
+.rooms-tag {
+  display: flex;
+  align-items: center;
+  font-size: 16px;/**/
+  color: #5b6167;
+}
+
+.rooms-tag [icon] {
+  height: 18px;
+  margin-right: 5px;
+  color: #3f444a;
+}

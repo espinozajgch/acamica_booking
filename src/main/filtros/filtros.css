@@ -1,0 +1,44 @@
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #000000;
+}
+
+#filters input, select{
+  margin: 5px;
+  padding: 2px;
+  height: 28px;
+}
+
+#filters select{
+  height: 36px;
+}
+
+#filters .MuiInput-underline::before {
+  border-bottom: 1px solid #fff;
+}
+
+#filters .MuiInputBase-root {
+  color: #fff;
+}
+
+#filters .MuiInputBase-root svg {
+  color: #fff;
+}
+
+#filters option {
+  color: #000;
+}
+
+@media (max-width: 500px) {
+  .Select,
+  .MuiTextField-root {
+    width: 100%;
+  }
+}
